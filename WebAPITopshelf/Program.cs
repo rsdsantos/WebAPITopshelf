@@ -1,8 +1,5 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using Topshelf;
+using WebAPITopshelf.Configuration;
 
 namespace WebAPITopshelf
 {
@@ -10,6 +7,22 @@ namespace WebAPITopshelf
     {
         static void Main(string[] args)
         {
+            HostFactory.Run(x =>
+            {
+                x.Service<OwinService>(s =>
+                {
+                    s.ConstructUsing(() => new OwinService());
+                    s.WhenStarted(service => service.Start());
+                    s.WhenStopped(service => service.Stop());
+                });
+
+                x.RunAsLocalSystem();
+                x.StartAutomatically();
+
+                x.SetDescription("Serviço de testes do Web API Self-Host com Topshelf.");
+                x.SetDisplayName("WebAPISelfHost");
+                x.SetServiceName("WebAPISelfHost");
+            });
         }
     }
 }
