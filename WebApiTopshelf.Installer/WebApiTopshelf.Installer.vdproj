@@ -263,6 +263,62 @@
     {
         "CustomAction"
         {
+            "{4AA51A2D-7D85-4A59-BA75-B0809FC8B380}:_70F7B0FD6DD3437DBEE0203117E1EBC6"
+            {
+            "Name" = "8:Primary output from WebAPITopshelf (Active)"
+            "Condition" = "8:"
+            "Object" = "8:_699D488775524689A3F5A41238D266CF"
+            "FileType" = "3:2"
+            "InstallAction" = "3:3"
+            "Arguments" = "8:"
+            "EntryPoint" = "8:"
+            "Sequence" = "3:1"
+            "Identifier" = "8:_A6D25DF3_F8F3_4E17_A74A_50ADD035EF23"
+            "InstallerClass" = "11:TRUE"
+            "CustomActionData" = "8:"
+            }
+            "{4AA51A2D-7D85-4A59-BA75-B0809FC8B380}:_8AA08FDD32CE4E8EA57CDA510D414F42"
+            {
+            "Name" = "8:Primary output from WebAPITopshelf (Active)"
+            "Condition" = "8:"
+            "Object" = "8:_699D488775524689A3F5A41238D266CF"
+            "FileType" = "3:2"
+            "InstallAction" = "3:1"
+            "Arguments" = "8:"
+            "EntryPoint" = "8:"
+            "Sequence" = "3:1"
+            "Identifier" = "8:_7FC77B5C_FC29_4630_B935_1480767872AE"
+            "InstallerClass" = "11:TRUE"
+            "CustomActionData" = "8:"
+            }
+            "{4AA51A2D-7D85-4A59-BA75-B0809FC8B380}:_A87A69936C134E69A1E6B72FA916E630"
+            {
+            "Name" = "8:Primary output from WebAPITopshelf (Active)"
+            "Condition" = "8:"
+            "Object" = "8:_699D488775524689A3F5A41238D266CF"
+            "FileType" = "3:2"
+            "InstallAction" = "3:4"
+            "Arguments" = "8:"
+            "EntryPoint" = "8:"
+            "Sequence" = "3:1"
+            "Identifier" = "8:_095C6037_94C2_4678_A698_8537D08F4C45"
+            "InstallerClass" = "11:TRUE"
+            "CustomActionData" = "8:"
+            }
+            "{4AA51A2D-7D85-4A59-BA75-B0809FC8B380}:_BD99DE43E4A4405C8E28A1569BF7CBDD"
+            {
+            "Name" = "8:Primary output from WebAPITopshelf (Active)"
+            "Condition" = "8:"
+            "Object" = "8:_699D488775524689A3F5A41238D266CF"
+            "FileType" = "3:2"
+            "InstallAction" = "3:2"
+            "Arguments" = "8:"
+            "EntryPoint" = "8:"
+            "Sequence" = "3:1"
+            "Identifier" = "8:_288B48A4_7ABA_4348_BB15_4F0A0E9390EE"
+            "InstallerClass" = "11:TRUE"
+            "CustomActionData" = "8:"
+            }
         }
         "DefaultFeature"
         {
