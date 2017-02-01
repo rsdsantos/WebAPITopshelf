@@ -5,6 +5,10 @@ VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebAPITopshelf", "WebAPITopshelf\WebAPITopshelf.csproj", "{23F8ED32-774D-4478-8247-923AA697311E}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Installer", "Installer", "{678A59DA-797D-45B9-9DEF-490FE023AD60}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "WebApiTopshelf.Installer", "WebApiTopshelf.Installer\WebApiTopshelf.Installer.vdproj", "{EB66044D-D994-4168-8563-47AE28FC269A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,8 +19,13 @@ Global
 		{23F8ED32-774D-4478-8247-923AA697311E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{23F8ED32-774D-4478-8247-923AA697311E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{23F8ED32-774D-4478-8247-923AA697311E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EB66044D-D994-4168-8563-47AE28FC269A}.Debug|Any CPU.ActiveCfg = Debug
+		{EB66044D-D994-4168-8563-47AE28FC269A}.Release|Any CPU.ActiveCfg = Release
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{EB66044D-D994-4168-8563-47AE28FC269A} = {678A59DA-797D-45B9-9DEF-490FE023AD60}
 	EndGlobalSection
 EndGlobal
